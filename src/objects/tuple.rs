@@ -220,6 +220,9 @@ tuple_conversion!(8, (ref0, 0, A), (ref1, 1, B), (ref2, 2, C), (ref3, 3, D),
   (ref4, 4, E), (ref5, 5, F), (ref6, 6, G), (ref7, 7, H));
 tuple_conversion!(9, (ref0, 0, A), (ref1, 1, B), (ref2, 2, C), (ref3, 3, D),
   (ref4, 4, E), (ref5, 5, F), (ref6, 6, G), (ref7, 7, H), (ref8, 8, I));
+tuple_conversion!(10, (ref0, 0, A), (ref1, 1, B), (ref2, 2, C), (ref3, 3, D),
+  (ref4, 4, E), (ref5, 5, F), (ref6, 6, G), (ref7, 7, H), (ref8, 8, I),
+  (ref9, 9, J));
 
 
 #[cfg(test)]
